@@ -1,0 +1,1 @@
+!function(){app.service("authService",["$window",function(e){var t=this;t.getAccessToken=function(){var t=e.localStorage.getItem("token");return t}}])}();

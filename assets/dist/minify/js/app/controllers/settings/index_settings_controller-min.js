@@ -1,0 +1,1 @@
+(function(){app.controller("indexSettingController",["$rootScope","$scope","$state","settingsService",function(t,n,e,i){n.redirectTo=function(t){e.transitionTo(t)},n.start=function(){n.title="Settings",n.list=i.items,t.$emit("basic:header",null,null,n,!1,null,!0)},n.start()}])}).call(this);

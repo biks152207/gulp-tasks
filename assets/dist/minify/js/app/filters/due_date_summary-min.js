@@ -1,0 +1,1 @@
+!function(){app.filter("dueDateSummary",["dueService",function(e){return function(r){if(r&&r.recurrence&&r.recurrence)return e.getSummary(r.recurrence)}}])}();

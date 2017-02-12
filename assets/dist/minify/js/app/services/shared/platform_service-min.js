@@ -1,0 +1,1 @@
+(function(){app.service("platformService",function(){var i=this,t=ionic.Platform.platform();i.isMobileDevice=function(){return"android"===t||"ios"===t},i.getPlatform=function(){return t}})}).call(this);

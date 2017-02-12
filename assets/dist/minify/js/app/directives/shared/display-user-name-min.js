@@ -1,0 +1,1 @@
+(function(){app.directive("displayUserName",["userModel",function(e){return{restrict:"E",replace:!0,scope:{user:"="},transclude:!0,template:"<span>{{name}} <ng-transclude></ng-transclude> </span>",link:function(n,a,r){var s=e.getLoggedInId();n.$watch("user",function(){n.name=n.user._id==s?"Me ":n.user.displayName+" "})}}}])}).call(this);

@@ -1,0 +1,1 @@
+(function(){app.service("stringService",function(){var t=this;t.CLOSE="CLOSE",t.COPY_LINK="COPY LINK",t.NO="NO",t.YES="YES",t.EMPTY="",t.OK="OK",t.CANCEL="CANCEL",t.UPGRADE="UPGRADE",t.firstLetter=function(t){return t.charAt(0).toUpperCase()},t.capitalizeFirstLetter=function(r){return r?r[0].toUpperCase()+r.substr(1):t.EMPTY}})}).call(this);

@@ -1,0 +1,1 @@
+(function(){app.directive("tdzAvatar",function(){var t;return t={restrict:"E",templateUrl:"html/directives/shared/avatar.html",scope:{imageSrc:"@",shortName:"@",position:"@"},replace:!0,link:function(t,i,a){t.url=t.imageSrc,t.name=t.shortName,"right"==t.position?t.itemPosition="avatar-right":t.itemPosition="avatar-left"}}})}).call(this);

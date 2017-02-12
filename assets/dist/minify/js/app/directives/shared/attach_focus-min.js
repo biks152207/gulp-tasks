@@ -1,0 +1,1 @@
+!function(){app.directive("attachFocus",["$rootScope","$timeout",function(t,c){return{restrict:"A",link:function(o,n,i){var u=t.$on("attach-focus",function(t,o){o===i.attachFocus&&$(n).is(":visible")&&c(function(){$(n).is(":button")?$(n).click():$(n).focus()})});o.$on("$destroy",function(){u()})}}}])}();

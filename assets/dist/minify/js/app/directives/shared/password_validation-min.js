@@ -1,0 +1,1 @@
+!function(){app.directive("passwordValidation",["$q","user","connectivity",function(n,e,i){return{require:"ngModel",link:function(r,t,o,c){c.$asyncValidators.password=function(r,t){if(c.$isEmpty(r)||!i.isConnected())return $.when();var o=n.defer();return e.validatePassword(r).then(function(n){n?o.resolve():o.reject()},function(n){o.reject()}),o.promise}}}}])}();

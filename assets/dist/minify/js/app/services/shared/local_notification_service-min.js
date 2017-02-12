@@ -1,0 +1,1 @@
+(function(){app.service("localNotification",["$rootScope","$cordovaVibration","$state",function(o,i,t){}])}).call(this);

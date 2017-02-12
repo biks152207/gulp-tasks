@@ -1,0 +1,1 @@
+(function(){app.service("orientation",["$rootScope","screenSize",function(i,n){var o=this;o.setOrientation=function(){ionic.Platform.isIPad()||ionic.Platform.isIOS()||ionic.Platform.isAndroid()},window.addEventListener("orientationchange",function(){i.desktop=n.is("md,lg"),i.mobile=n.is("xs, sm")},!1)}])}).call(this);

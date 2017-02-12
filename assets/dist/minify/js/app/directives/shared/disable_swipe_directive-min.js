@@ -1,0 +1,1 @@
+!function(){app.directive("disableSwipe",["$ionicGesture",function(e){return{restrict:"A",link:function(n,t,o){function i(e){var n=e.gesture.direction;if(console.log("gesture event"),console.log(arguments),"left"==n)return console.log("cancelling gesture left"),e.preventDefault(),!1}var r=e.on("swipe",i,t);n.$on("$destroy",function(){e.off(r,"swipe",i)})}}}])}();

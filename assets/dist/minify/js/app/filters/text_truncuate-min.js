@@ -1,0 +1,1 @@
+(function(){app.filter("cut",function(){return function(t,r,n,u){if(!t)return"";if(n=parseInt(n,10),!n)return t;if(t.length<=n)return t;if(t=t.substr(0,n),r){var e=t.lastIndexOf(" ");e!=-1&&(t=t.substr(0,e))}return t+(u||" …")}})}).call(this);

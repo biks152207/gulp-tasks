@@ -1,0 +1,1 @@
+!function(){app.directive("fixShiftKey",[function(){return{restrict:"A",link:function(i,n,e){function o(i){16==i.keyCode&&(window.fixes=window.fixes||{},window.fixes.shiftKey=!0)}function w(i){16==i.keyCode&&window.fixes&&delete window.fixes.shiftKey}$(window).on("keydown",o),$(window).on("keyup",w)}}}])}();

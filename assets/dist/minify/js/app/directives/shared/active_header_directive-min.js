@@ -1,0 +1,1 @@
+(function(){app.directive("activeHeader",function(){var t;return t={restrict:"A",require:["activeHeader"],controller:function(t){this.tabCheck=function(e){return e==="#"+t.path()}},compile:function(){return{pre:function(t,e,r,n){t.ah=n[0]}}}}})}).call(this);

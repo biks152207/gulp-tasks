@@ -1,0 +1,1 @@
+(function(){app.filter("nameShorten",function(){return function(t){var n;return n=t.split(" "),n[0].charAt(0).toUpperCase()+n[n.length-1].charAt(0).toUpperCase()}})}).call(this);
